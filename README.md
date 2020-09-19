@@ -1,5 +1,7 @@
 # Trigame Rules
 
+![Board, Figure 1] (imgase\Figure 1.png)
+
 1.	Two players take turns and only one move with one piece is allowed per turn.
 2.	A triangle means the smallest triangle on the board (with no lines inside). When a piece is said to be inside a triangle, it is in the smallest triangles with no lines inside; when a piece is said to be on the edge of the triangle, it stays in the middle of one side of the smallest triangle; when a piece is said to be on the vertex of a triangle, it is on the vertex of the smallest triangle and possibly sharing the vertex with other triangles (the initial position of the “b”s’ and “c”s’).  Capture means removing a piece from the opponent out of the game.
 3.	Pieces of the same type cannot capture each other.

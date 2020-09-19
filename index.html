@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Trigame</title>
+<style>
+	.bg{background:url(imgase/chessboard.png);width:650px; height:420px;margin:0 auto;}
+	.bg div{position:absolute;width:35px;}
+	.selected{
+		border:1px solid blue;
+	}
+
+</style>
+
+</head>
+	
+<body>
+	
+	<div id="bg" class="bg" style="position:relative;">
+    	<div style="top:212px; left:0px;" ui-type="a1" point="true" pointIndex=0><img src="imgase/black_a.png"/></div>
+        <div style="top:212px; left:100px;" ui-type="a1"  point="false" triIndex=2><img src="imgase/black_a.png"/></div>
+        <div style="top:170px; left:74px;" ui-type="b1"  point="true" pointIndex=1><img src="imgase/black_b.png"/></div>
+        <div style="top:260px; left:74px;" ui-type="b1"  point="true" pointIndex=2><img src="imgase/black_b.png"/></div>
+        <div style="top:120px; left:150px;" ui-type="c1" point="true" pointIndex=3><img src="imgase/black_c.png"/></div>
+        <div style="top:304px; left:150px;" ui-type="c1" point="true" pointIndex=5><img src="imgase/black_c.png"/></div>
+        <div style="top:212px; left:624px;" ui-type="a2" point="true" pointIndex=24><img src="imgase/red_a.png"/></div>
+        <div style="top:212px; left:510px;" ui-type="a2"  point="false" triIndex=29><img src="imgase/red_a.png"/></div>
+        <div style="top:170px; left:546px;" ui-type="b2" point="true" pointIndex=22><img src="imgase/red_b.png"/></div>
+        <div style="top:260px; left:546px;" ui-type="b2" point="true" pointIndex=23><img src="imgase/red_b.png"/></div>
+        <div style="top:120px; left:468px;" ui-type="c2" point="true" pointIndex=19><img src="imgase/red_c.png"/></div>
+        <div style="top:304px; left:468px;" ui-type="c2" point="true" pointIndex=21><img src="imgase/red_c.png"/></div>
+    </div>
+    
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
